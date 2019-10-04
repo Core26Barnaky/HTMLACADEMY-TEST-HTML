@@ -4,9 +4,12 @@ body {
   line-height: 26px;
   font-family: "Arial", sans-serif;
   color: #222222;
+  margin: auto;
+  max-width: 700px;
 
   background: #ffffff url("img/bg-page.png") no-repeat top center;
 }
+
 
 h1 {
   font-size: 24px;
@@ -61,6 +64,10 @@ a[href] {
   text-decoration: underline;
 }
 
+a:hover {
+  color: #4470C4;
+}
+
 del {
   color: #ff4400;
 }
@@ -89,10 +96,11 @@ i {
 
 .blog-navigation {
   margin-bottom: 30px;
+  max-width: 400px;
   padding: 20px;
 
   background-color: rgba(68, 112, 196, 0.7);
-  border: 5px solid #2d508f;
+  border: 2px solid #2d508f;
 
   color: #ffffff;
 }
@@ -114,9 +122,14 @@ i {
   color: #ffffff;
 }
 
+.blog-navigation a:hover {
+  color: #E8E8E8;
+}
+
 .skills dd {
   margin: 0;
   margin-bottom: 10px;
+
 
   background-color: #e8e8e8;
 }
@@ -185,16 +198,17 @@ figcaption {
 footer {
   margin-top: 30px;
   padding-top: 10px;
-  color: #aaaaaa;
-  border-top: 1px solid #aaaaaa;
+  border-top: 1px solid #DADFE6;
+  height: 150px;
+  background: #ffffff url("img/bg-page-bottom.png") no-repeat center;  
 }
+
 
 .page-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   font-family: "Verdana", sans-serif;
-  text-align: center;
 }
 
 .partnership {
@@ -221,3 +235,5 @@ footer {
 .italic {
   font-style: italic;
 }
+
+
